@@ -1,0 +1,182 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bootstrap";
+
+@font-face {
+    font-family: 'harryp';
+    src: url('harryp-webfont.eot?#iefix') format('embedded-opentype'), 
+         url('harryp-webfont.woff') format('woff'), 
+         url('harryp-webfont.ttf')  format('truetype'),
+         url('harryp-webfont.svg#svgFontName') format('svg');
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+html,body {
+    height:100%;
+   	background-color: black;
+	text-align: center;
+	width: 100%;
+}
+.navbar {
+	background-color: black;
+	border-color: black;
+}
+.crest {
+	margin-top: 50px;
+	height: 100%;
+}
+.crest h1 {
+	font-family: harryp, serif;
+	font-size: 56pt;
+	color: white;
+	margin: 0;
+}
+.cast {
+	padding-top: 50px;
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color: black;
+	width: 100%;
+}
+.castcol {
+	width: 100%
+}
+.caption {
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+	color: #fff;
+	z-index: 100;
+		-webkit-transition: all 300ms ease-out;
+		-moz-transition: all 300ms ease-out;
+		-o-transition: all 300ms ease-out;
+		-ms-transition: all 300ms ease-out;	
+		transition: all 300ms ease-out;
+	left: 0;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.fade-caption {
+	opacity: 0;
+	width: 538px;
+	height: 800px;
+	text-align: center;
+	padding: 100px;
+}
+.harryimg:hover .fade-caption {
+	opacity: 1;
+}
+.harryimg {
+	width: 538px;
+	height: 800px;
+	background: url(Harry.jpg);
+	background-size: cover;
+}
+.herimg {
+	width: 537px;
+	height: 800px;
+	background: url(Her.jpg);
+	background-size: cover;
+}
+.herimg:hover .fade-caption {
+	opacity: 1;
+}
+.ronimg {
+	width: 537px;
+	height: 800px;
+	background: url(Ron.jpg);
+	background-position: -50px 0px;
+	background-size: cover;
+}
+.ronimg:hover .fade-caption {
+	opacity: 1;
+}
+.houses {
+	padding-top: 70px;
+}
+.gryff {
+	background: #990000;
+	border-radius: 25px;
+	height: 690px;
+	width: 99%;
+	padding: 0px;
+	color: #E6E6E6;
+}
+.huffle {
+	background: #E6E65C;
+	border-radius: 25px;
+	height: 690px;
+	width: 99%;
+	padding: 0px;
+	color: black;
+}
+.raven {
+	background: #0033CC;
+	border-radius: 25px;
+	height: 690px;
+	width: 99%;
+	padding: 0px;
+	color: #E6E6E6;
+}
+.slyth {
+	background: #336600;
+	border-radius: 25px;
+	height: 690px;
+	width: 99%;
+	padding: 0px;
+	color: black;
+}
+.gryffimg {
+	background: url(HogwartsHouses.png);
+	height: 241px;
+	width: 198px;
+	display: table;
+	margin: 0 auto;
+}
+.huffleimg {
+	background: url(HogwartsHouses.png);
+	background-position: 0px 241px;
+	height: 241px;
+	width: 198px;
+	display: table;
+	margin: 0 auto;
+}
+.ravenimg {
+	background: url(HogwartsHouses.png);
+	background-position: 198px 0px;
+	height: 241px;
+	width: 198px;
+	display: table;
+	margin: 0 auto;
+}
+.slythimg {
+	background: url(HogwartsHouses.png);
+	background-position: 198px 241px;
+	height: 241px;
+	width: 198px;
+	display: table;
+	margin: 0 auto;
+}
+.description {
+	text-align: justify;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 40px;
+}
+

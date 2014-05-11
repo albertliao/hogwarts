@@ -1,0 +1,111 @@
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">M A G I C</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#" onclick="loadCrest()">Home</a></li>
+        <li><a href="#cast" onclick="loadCast()">Meet Our Students</a></li>
+        <li><a href="#houses" onclick="loadHouses()">Houses</a></li>
+      </ul>
+   
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="crest" id="crest">
+	<h1>Hogwarts School of <br /> Witchcraft and Wizardry<h1>
+	<%= image_tag "HogwartsCrest.png" %>
+</div>
+
+<div class="cast container-fluid" id="cast">
+	<div class ="row">
+		<div class="col-lg-4 col-md-6 nopadding">
+			<div class="castcol">
+				<div class="harryimg">
+					<span class="caption fade-caption">
+						<h3><strong>Harry Potter</strong></h3>
+						<br />
+						<p>Harry James Potter (b. 31 July 1980) was a half-blood wizard, the only child and son of James and Lily Potter (née Evans), and one of the most famous wizards of modern times. In what proved to be a vain attempt to circumvent a prophecy that a boy born at the end of July of 1980 could be able to defeat him, Voldemort attempted to murder him when he was a year and three months old, shortly after murdering Harry's parents as they tried to protect him. This early, unsuccessful attempt to vanquish Harry led to Voldemort's first defeat and the end of the First Wizarding War.
+						</p>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 nopadding">
+			<div class="castcol">
+				<div class="herimg">
+					<span class="caption fade-caption">
+						<h3><strong>Hermione Granger</strong></h3>
+						<br />
+						<p>Hermione Jean Weasley (née Granger) (b. 19 September, 1979) was the only daughter of Muggle Mr and Mrs Granger, both dentists in London. At age eleven, Hermione learned that she was a witch and had been accepted into Hogwarts School of Witchcraft and Wizardry. She began attending the school on 1 September, 1991 where she was subsequently sorted into Gryffindor House. She possessed a brilliant academic mind and proved to be a gifted student. She was very studious and bookish. Along with Harry Potter and a few others, she was relatively little intimidated by Lord Voldemort's name, calling him by his name, instead of You-Know-Who or He-Who-Must-Not-Be-Named.
+						</p>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-6 nopadding">
+			<div class="castcol">
+				<div class="ronimg">
+					<span class="caption fade-caption">
+						<h3><strong>Ron Weasley</strong></h3>
+						<br />
+						<p>Ronald Bilius "Ron" Weasley (born 1 March, 1980) was a pure-blood wizard, the sixth son of Arthur Weasley and Molly Weasley (née Prewett). He was also the younger brother of Bill, Charlie, Percy, Fred and George, and the elder brother of Ginny. Ron and his brothers and sister lived in The Burrow where Harry and Hermione stayed quite often. Ron began attending Hogwarts School of Witchcraft and Wizardry in 1991 and was sorted into Gryffindor house. He soon became best friends with fellow student Harry Potter and later Hermione Granger.
+						</p>
+					</span>
+				</div>	
+			</div>
+		</div>
+	</div>	
+</div>
+
+<div class="houses container-fluid" id="houses">
+	<div class ="row">
+		<div class="col-lg-3 col-md-6">
+			<div class="gryff">
+				<div class="gryffimg"></div>
+				<div class="description">
+					<p>Gryffindor values bravery, daring, nerve, and chivalry. Its emblematic animal is the lion and its colours are scarlet and gold. Minerva McGonagall is the most recent Head of Gryffindor. Sir Nicholas de Mimsy-Porpington, aka Nearly Headless Nick, is the house ghost. The founder of the house is Godric Gryffindor. Gryffindor corresponds to the element of Fire. The common room is located in one of the highest towers at Hogwarts, the entrance is situated on the seventh floor in the east wing of the castle and is guarded by a portrait of The Fat Lady. She permits entrance if given the correct password which is changed numerous times throughout the school year.
+					</p>
+				</div>
+				</div>
+			</div>
+		<div class="col-lg-3 col-md-6">
+			<div class="huffle">
+				<div class="huffleimg"></div>
+				<div class="description">
+					<p>Hufflepuff, founded by Helga Hufflepuff, values hard work, patience, loyalty, and fair play rather than a particular aptitude in its members. Its emblematic animal is the badger, and Yellow and Black are its colours. Pomona Sprout was the Head of Hufflepuff during 1991 - 1998, Sprout left the post of Head of Hufflepuff and Herbology Professor sometime before 2017 and her successor for the position of Head of Hufflepuff is currently unknown. The Fat Friar is its ghost. Hufflepuff corresponds to the element of earth. The Hufflepuff Dormitories and common room are located somewhere in the basement, near the castle's kitchens. It can be accessed by tapping the barrel two from the bottom, middle of the second row in the rhythem of "Helga Hufflepuff".
+					</p>
+				</div>			
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-6">
+			<div class="raven">
+				<div class="ravenimg"></div>
+				<div class="description">
+					<p>Ravenclaw values intelligence, knowledge, and wit. Its emblematic animal is the eagle, and its colours are blue and bronze. The Ravenclaw Head of House in the 1990s was Filius Flitwick. The ghost of Ravenclaw is the Grey Lady, who was the daughter of Rowena Ravenclaw, the house's founder. Ravenclaw corresponds to the element of air. The Ravenclaw common room and dormitories are located in a tower on the west side of the castle. Ravenclaw students must answer a riddle as opposed to giving a password to enter their dormitories. This riddle, however, can be answered by non-Ravenclaws.
+					</p>
+				</div>
+			</div>			
+		</div>
+		<div class="col-lg-3 col-md-6">
+			<div class="slyth">
+				<div class="slythimg"></div>
+				<div class="description">
+					<p>Slytherin house values ambition, cunning and resourcefulness and was founded by Salazar Slytherin. Its emblematic animal is the serpent, and its colours are emerald green and silver. Professor Horace Slughorn was the Head of Slytherin during the 1997–1998 school year, replacing Severus Snape, who as well, replaced Slughorn when he retired for the first time several years ago. The Bloody Baron is the house ghost. Slytherin corresponds roughly to the element of water. The Slytherin Dormitories and common room are reached through a bare stone wall in the Dungeons. The Slytherin common room lies beneath the Black Lake. It is a long, low underground room with rough stone walls and silver lamps hanging from the ceiling.
+					</p>
+				</div>
+			</div>			
+		</div>
+	</div>
+</div>
